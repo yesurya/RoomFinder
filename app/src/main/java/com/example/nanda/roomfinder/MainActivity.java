@@ -38,12 +38,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import java.util.List;
-//helo her
 public class MainActivity extends FragmentActivity implements
         PageFragmentCallbacks,
         ReviewFragment.Callbacks,
         ModelCallbacks {
-    String test;
+   
     private ViewPager mPager;
     private MyPagerAdapter mPagerAdapter;
 
