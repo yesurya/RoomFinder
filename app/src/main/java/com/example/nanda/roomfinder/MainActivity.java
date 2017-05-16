@@ -43,6 +43,7 @@ public class MainActivity extends FragmentActivity implements
         PageFragmentCallbacks,
         ReviewFragment.Callbacks,
         ModelCallbacks {
+    String test;
     private ViewPager mPager;
     private MyPagerAdapter mPagerAdapter;
 
